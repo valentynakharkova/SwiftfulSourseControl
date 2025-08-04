@@ -21,17 +21,6 @@ struct ContentView: View {
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
-            Button {
-                
-            } label: {
-                Text("Click me")
-                    .padding()
-                    .foregroundColor(.white)
-                    .padding(5)
-                    .background(.indigo)
-                    .cornerRadius(10)
-            }
-
 
         }
         .padding()
