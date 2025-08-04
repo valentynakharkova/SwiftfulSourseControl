@@ -9,7 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Second View")
+        VStack {
+            Text("Second View")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+                .padding()
+                .background(.indigo)
+                .cornerRadius(10)
+        }
     }
 }
 
