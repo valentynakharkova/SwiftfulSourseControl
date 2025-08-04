@@ -21,6 +21,13 @@ struct ContentView: View {
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
+            Button("Click me") {
+                
+            }
+            .foregroundStyle(.white)
+            .padding()
+            .background(.indigo)
+            .cornerRadius(10)
 
         }
         .padding()
