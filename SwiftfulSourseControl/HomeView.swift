@@ -9,7 +9,12 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
+            Image(systemName: "heart.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
+                .foregroundStyle(.indigo)
             Text("Second View")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
