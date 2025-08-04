@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State private var title: String = "Hello"
+    
     var body: some View {
         VStack(spacing: 0) {
             Image(systemName: "heart.fill")
