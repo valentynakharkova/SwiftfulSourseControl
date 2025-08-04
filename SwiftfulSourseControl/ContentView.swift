@@ -44,6 +44,14 @@ struct ContentView: View {
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
+            Button("Subscribe") {
+                
+            }
+            .foregroundStyle(.white)
+            .padding()
+            .background(.indigo)
+            .cornerRadius(10)
+            
             Button("Click me") {
                 
             }
