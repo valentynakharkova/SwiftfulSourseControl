@@ -47,7 +47,7 @@ struct ContentView: View {
             Button("Click me") {
                 
             }
-            .foregroundStyle(.white)
+            .foregroundStyle(.yellow)
             .padding()
             .background(.indigo)
             .cornerRadius(10)
