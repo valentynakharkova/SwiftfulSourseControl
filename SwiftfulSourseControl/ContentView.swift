@@ -58,6 +58,11 @@ struct ContentView: View {
             .padding()
             .background(.indigo)
             .cornerRadius(10)
+            
+            Rectangle()
+                .fill(Color.indigo)
+                .frame(width: 200, height: 200)
+                .cornerRadius(10)
 
         }
         .padding()
