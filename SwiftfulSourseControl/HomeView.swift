@@ -26,9 +26,6 @@ struct HomeView: View {
                 .background(.indigo)
                 .cornerRadius(10)
         }
-        .onAppear {
-            // send analytics
-        }
     }
 }
 
