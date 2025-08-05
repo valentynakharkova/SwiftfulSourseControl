@@ -40,12 +40,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "magnifyingglass")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 100, height: 100)
                 .foregroundStyle(.indigo)
-            Text("Some new title")
+            Text("Valentyna Kharkova")
                 .font(.largeTitle)
                 .foregroundStyle(.white)
                 .padding()
@@ -77,8 +77,8 @@ struct ContentView: View {
                     .frame(width: 200, height: 200)
                     .cornerRadius(10)
                 
-                ForEach(1..<5) { _ in
-                    Text("Hello")
+                ForEach(1..<4) { _ in
+                    Text("Hi")
                 }
             }
             .padding()
