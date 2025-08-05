@@ -40,18 +40,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house.fill")
+            Image(systemName: "globe")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 100, height: 100)
                 .foregroundStyle(.indigo)
-            Text("Valentyna Kharkova")
+            Text("Some new title")
                 .font(.largeTitle)
                 .foregroundStyle(.white)
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
-            Button("Subscribe now") {
+            Button("Subscribe") {
                 
             }
             .foregroundStyle(.white)
@@ -59,7 +59,7 @@ struct ContentView: View {
             .background(.indigo)
             .cornerRadius(10)
             
-            Button("Click me too!") {
+            Button("Click me") {
                 
             }
             .foregroundStyle(.yellow)
