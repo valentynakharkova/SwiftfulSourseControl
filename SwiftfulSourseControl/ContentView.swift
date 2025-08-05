@@ -39,33 +39,37 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            VStack {
-                Image(systemName: "house.fill")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 100, height: 100)
-                    .foregroundStyle(.indigo)
-                Text("Valentyna Kharkova")
-                    .font(.largeTitle)
-                    .foregroundStyle(.white)
-                    .padding()
-                    .background(.indigo)
-                    .cornerRadius(10)
-                Button("Subscribe now") {
-                    
-                }
+        VStack {
+            Image(systemName: "globe")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
+                .foregroundStyle(.indigo)
+            Text("Some new title")
+                .font(.largeTitle)
                 .foregroundStyle(.white)
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
+            Button("Subscribe") {
                 
-                Button("Click me too!") {
-                    
-                }
-                .foregroundStyle(.yellow)
-                .padding()
-                .background(.indigo)
+            }
+            .foregroundStyle(.white)
+            .padding()
+            .background(.indigo)
+            .cornerRadius(10)
+            
+            Button("Click me") {
+                
+            }
+            .foregroundStyle(.yellow)
+            .padding()
+            .background(.indigo)
+            .cornerRadius(10)
+            
+            Rectangle()
+                .fill(Color.indigo)
+                .frame(width: 200, height: 200)
                 .cornerRadius(10)
                 
                 Rectangle()
@@ -79,7 +83,7 @@ struct ContentView: View {
             }
             .padding()
         }
-        
+        .padding()
     }
 }
 
