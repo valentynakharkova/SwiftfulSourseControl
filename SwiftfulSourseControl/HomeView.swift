@@ -13,7 +13,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack(spacing: 10) {
-            Image(systemName: "heart.fill")
+            Image(systemName: "bolt")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 100, height: 100)
