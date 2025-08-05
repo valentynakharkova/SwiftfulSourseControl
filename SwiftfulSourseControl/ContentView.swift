@@ -39,41 +39,47 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "house.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 100, height: 100)
-                .foregroundStyle(.indigo)
-            Text("Valentyna Kharkova")
-                .font(.largeTitle)
+        ScrollView {
+            VStack {
+                Image(systemName: "house.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
+                    .foregroundStyle(.indigo)
+                Text("Valentyna Kharkova")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+                    .padding()
+                    .background(.indigo)
+                    .cornerRadius(10)
+                Button("Subscribe now") {
+                    
+                }
                 .foregroundStyle(.white)
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
-            Button("Subscribe now") {
                 
-            }
-            .foregroundStyle(.white)
-            .padding()
-            .background(.indigo)
-            .cornerRadius(10)
-            
-            Button("Click me too!") {
-                
-            }
-            .foregroundStyle(.yellow)
-            .padding()
-            .background(.indigo)
-            .cornerRadius(10)
-            
-            Rectangle()
-                .fill(Color.indigo)
-                .frame(width: 200, height: 200)
+                Button("Click me too!") {
+                    
+                }
+                .foregroundStyle(.yellow)
+                .padding()
+                .background(.indigo)
                 .cornerRadius(10)
-
+                
+                Rectangle()
+                    .fill(Color.indigo)
+                    .frame(width: 200, height: 200)
+                    .cornerRadius(10)
+                
+                ForEach(1..<5) { _ in
+                    Text("Hello")
+                }
+            }
+            .padding()
         }
-        .padding()
+        
     }
 }
 
