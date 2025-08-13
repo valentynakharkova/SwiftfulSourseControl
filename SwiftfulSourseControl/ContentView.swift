@@ -78,7 +78,7 @@ struct ContentView: View {
                     .frame(width: 200, height: 200)
                     .cornerRadius(10)
                 
-                ForEach(1..<4) { _ in
+                ForEach(1..<2) { _ in
                     Text("Hi")
                 }
             }
