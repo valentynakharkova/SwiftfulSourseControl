@@ -25,7 +25,7 @@ struct HomeView: View {
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
-            Text("Extra text")
+            Text(title)
         }
         .onAppear {
             
