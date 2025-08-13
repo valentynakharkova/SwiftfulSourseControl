@@ -41,12 +41,12 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image(systemName: "globe")
+                Image(systemName: "magnifyingglass")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 100, height: 100)
                     .foregroundStyle(.indigo)
-                Text("Valentyna Kharkova")
+                Text("Valentyna Kharkova!!!")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
                     .padding()
