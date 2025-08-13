@@ -27,6 +27,9 @@ struct HomeView: View {
                 .cornerRadius(10)
             Text("Extra text")
         }
+        .onAppear {
+            
+        }
     }
 }
 
