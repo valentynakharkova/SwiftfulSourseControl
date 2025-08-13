@@ -46,7 +46,7 @@ struct ContentView: View {
                     .scaledToFit()
                     .frame(width: 100, height: 100)
                     .foregroundStyle(.indigo)
-                Text("Valentyna Kharkova!!!")
+                Text("Swiftful Thinking!")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
                     .padding()
