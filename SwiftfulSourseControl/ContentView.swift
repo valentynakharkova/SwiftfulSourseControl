@@ -39,37 +39,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 100, height: 100)
-                .foregroundStyle(.indigo)
-            Text("Valentyna Kharkova")
-                .font(.largeTitle)
+        ScrollView {
+            VStack {
+                Image(systemName: "globe")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
+                    .foregroundStyle(.indigo)
+                Text("Valentyna Kharkova")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+                    .padding()
+                    .background(.indigo)
+                    .cornerRadius(10)
+                Button("Subscribe") {
+                    
+                }
                 .foregroundStyle(.white)
                 .padding()
                 .background(.indigo)
                 .cornerRadius(10)
-            Button("Subscribe") {
                 
-            }
-            .foregroundStyle(.white)
-            .padding()
-            .background(.indigo)
-            .cornerRadius(10)
-            
-            Button("Click me") {
-                
-            }
-            .foregroundStyle(.yellow)
-            .padding()
-            .background(.indigo)
-            .cornerRadius(10)
-            
-            Rectangle()
-                .fill(Color.indigo)
-                .frame(width: 200, height: 200)
+                Button("Click me") {
+                    
+                }
+                .foregroundStyle(.yellow)
+                .padding()
+                .background(.indigo)
                 .cornerRadius(10)
                 
                 Rectangle()
@@ -77,11 +73,17 @@ struct ContentView: View {
                     .frame(width: 200, height: 200)
                     .cornerRadius(10)
                 
-                ForEach(1..<4) { _ in
+                Rectangle()
+                    .fill(Color.indigo)
+                    .frame(width: 200, height: 200)
+                    .cornerRadius(10)
+                
+                ForEach(1..<2) { _ in
                     Text("Hi")
                 }
             }
             .padding()
+        }
     }
 }
 
