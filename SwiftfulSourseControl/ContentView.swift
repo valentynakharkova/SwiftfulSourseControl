@@ -64,7 +64,7 @@ struct ContentView: View {
                 .background(.indigo)
                 .cornerRadius(10)
                 
-                Button("Click me") {
+                Button("Click this button") {
                     
                 }
                 .foregroundStyle(.yellow)
