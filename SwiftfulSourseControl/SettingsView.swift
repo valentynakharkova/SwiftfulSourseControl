@@ -7,9 +7,13 @@
 
 import SwiftUI
 
+
 struct SettingsView: View {
+    
+    @State private var showSettings: Bool = false
+    
     var body: some View {
-        Text("Settings")
+        Text("Settings View")
     }
 }
 
