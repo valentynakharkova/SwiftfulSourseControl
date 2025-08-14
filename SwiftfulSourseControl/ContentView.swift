@@ -56,7 +56,7 @@ struct ContentView: View {
                     .padding()
                     .background(.indigo)
                     .cornerRadius(10)
-                Button("Subscribe now") {
+                Button("Subscribe") {
                     
                 }
                 .foregroundStyle(.white)
