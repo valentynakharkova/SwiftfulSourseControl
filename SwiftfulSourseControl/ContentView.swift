@@ -8,11 +8,14 @@
 /*
  
  Clone = Copying the repo locally
- Commit = Save ("checkpoint") on our current brunch
+ Commit = Save ("checkpoint") changes on our current brunch
  Stage = Prepare changes for a commit
  Stash = Save changes for later
  Push = Send local commits to remote repo
  Pull = Fetch remote commits to local repo
+ Merge = Joining two different branches
+ Rebase = Moving one branch on top of another branch
+ Cherry picking = Dublicating (copying) one commit from one branch to another
  
  
  COMMIT MASSEGES
