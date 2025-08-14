@@ -15,7 +15,7 @@
  Pull = Fetch remote commits to local repo
  Merge = Joining two different branches
  Rebase = Moving one branch on top of another branch
- Cherry picking = Dublicating (copying) one commit from one branch to another
+ Cherry  picking = Dublicating (copying) one commit from one branch to another
  
  
  COMMIT MASSEGES
@@ -49,7 +49,7 @@ struct ContentView: View {
                     .scaledToFit()
                     .frame(width: 100, height: 100)
                     .foregroundStyle(.indigo)
-                Text("Val")
+                Text("Valentyna Kharkova")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
                     .padding()
