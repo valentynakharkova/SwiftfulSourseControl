@@ -1,0 +1,17 @@
+name: Simple Status Check
+
+on:
+  pull_request:
+    branches:
+      - main  # або інша твоя гілка
+  push:
+    branches:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run simple check
+        run: echo "Status check passed!"
